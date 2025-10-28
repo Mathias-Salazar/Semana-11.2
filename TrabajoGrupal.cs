@@ -1,13 +1,13 @@
 static void Main(string[] args)
 {
     string N;
-    Console.Write("Ingrese limites del arreglo: ");
+    Console.Write("Ingrese limite del arreglo: ");
     N=Console.ReadLine();
     int[] numeros = new int[int.Parse(N)];
 
     for (int i = 0; i < numeros.Length; i++)
     {
-        Console.Write("Ingresar dato {0}: ", i);
+        Console.Write("Ingresar datos {0}: ", i);
         numeros[i] = int.Parse(Console.ReadLine());
     }
 
