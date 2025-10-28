@@ -1,7 +1,7 @@
 static void Main(string[] args)
 {
     string N;
-    Console.Write("Ingrese limite del arreglo: ");
+    Console.Write("Ingrese limites del arreglo: ");
     N=Console.ReadLine();
     int[] numeros = new int[int.Parse(N)];
 
